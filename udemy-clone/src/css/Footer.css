@@ -1,0 +1,22 @@
+footer{
+    background-color: #1c1d1f;
+    color: white!important;
+    margin-top: 6rem;
+}
+.links-and-language-selector ul li a{
+text-decoration: none;
+color: white;
+}
+.links-and-language-selector ul li a:hover{
+    text-decoration: underline;
+}
+.links{
+    font-size: 14px;
+    max-width: 15%!important;    
+}
+.list-item{
+    margin: 0.5rem;
+}
+.copyright{
+    font-size: 12px
+}

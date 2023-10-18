@@ -1,0 +1,22 @@
+.side-bar{
+    padding: 3rem 0rem 2rem 6rem;
+}
+.list-unstyled{
+    padding-left: 0!important;
+}
+.side-nav-section{
+    margin-top: 2rem; 
+}
+.side-nav-item{
+    padding: 0.7rem 0.4rem;
+}
+.side-nav-item:hover{
+    background-color: #f7f9fa;
+}
+.side-nav-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+
+}

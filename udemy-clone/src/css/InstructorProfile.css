@@ -1,0 +1,102 @@
+.profile-settings{
+    padding-left: 20rem;
+    padding-right: 12rem;
+}
+.profile-settings .profile-settings-header h1{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.profile-settings-nav-tabs{
+    display: flex;
+}
+.profile-settings hr{
+    margin: 0;
+}
+.profile-settings-nav-tab button{
+    padding: .8rem .4rem;
+    font-weight: bold;
+    font-size: 16px;
+    background: 0 0;
+    border: 0;
+}
+.profile-settings-nav-tab a{
+    padding: .8rem .4rem;
+    color: #6a6f73;
+    text-decoration: none;
+}
+.profile-settings-nav-tab a:hover{
+    color: #000000;
+}
+.user-profile-input-group div span{
+    border: 1px solid black;
+    border-right: 0;
+    border-radius: 0;
+    background-color: #F7F9FA;
+}
+.user-profile-input{
+    padding-top: 0.8rem!important;
+    padding-bottom: 0.8rem!important;
+    padding-left: 0.5rem;
+
+    width: 100%;
+    border: 1px solid black!important;
+    border-radius: 0!important;
+    box-shadow: none!important;
+}
+.user-profile-input-group label{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+}
+.user-profile-save-button{
+    padding: 0.6rem;
+    color: white;
+    background-color: #000000;
+    font-weight: bold;
+    margin-top: 2rem;
+
+}
+.image-preview h4{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 0.8rem;
+}
+.image-preview div{
+    font-size: 12px;
+    padding-bottom: 0.8rem;
+    color: #6a6f73;
+}
+.image-upload-preview-wrapper{
+    border: 1px solid #1c1d1f;
+    padding: 1rem;
+    margin-bottom: 1.6rem;
+    max-width: 40rem;
+}
+.image-upload-preview-with-crop-image-wrapper{
+    background: #f7f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+.profile-image-input-group{
+    border: 1px solid black;
+
+    max-width: 40rem;
+}
+.image-upload-button{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.7rem;  
+    width: 40rem;
+}
+.input-group-checboxes{
+    font-size: 14px;
+    color: black;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
