@@ -29,7 +29,7 @@ const CourseManagePageNavbarSidebar = () => {
                 </Nav>
                 <Nav id='navbar-buttons' className='ms-auto'>
                     <NavLink className='navlink-login' to={"/"}>
-                        Önizleme
+                        preview
                     </NavLink>
                 </Nav>
             </Navbar>

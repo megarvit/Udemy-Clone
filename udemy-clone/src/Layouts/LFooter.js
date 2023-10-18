@@ -16,22 +16,22 @@ const LFooter = () => {
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Udemy'de Eğitim Verin
+                                link 
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Uygulamayı Edinin
+                                link 
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Hakkmızıda
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                İletişim
+                            link
                             </a>
                         </li>
                     </ul>
@@ -39,7 +39,7 @@ const LFooter = () => {
                     <ul className="links list-unstyled">
                         <li className='list-item'>
                             <a href='/#'>
-                                Kariyer
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
@@ -49,17 +49,17 @@ const LFooter = () => {
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Yardım ve Destek
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                İş Ortaklığı
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Yatırımcılar
+                            link
                             </a>
                         </li>
                     </ul>
@@ -67,27 +67,27 @@ const LFooter = () => {
                     <ul className="links list-unstyled">
                         <li className='list-item'>
                             <a href='/#'>
-                                Koşullar
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Gizlilik Politikası
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Çerez Ayarları
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Site Haritası
+                            link
                             </a>
                         </li>
                         <li className='list-item'>
                             <a href='/#'>
-                                Erişilebilirlik Beyanı
+                            link
                             </a>
                         </li>
                     </ul>
@@ -99,7 +99,7 @@ const LFooter = () => {
                         </a>
                     </div>
                     <div className='copyright'>
-                        © 2022 Udemy, Inc
+                        © 2023 Udemy, Inc
                     </div>
                 </div>
             </Col>

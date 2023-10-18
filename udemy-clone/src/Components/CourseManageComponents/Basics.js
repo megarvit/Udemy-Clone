@@ -58,13 +58,13 @@ const Basics = () => {
     return (
         <div className='app-component'>
             <div className='app-component-header'>
-                <h2 className='fs-4 fw-bold'>Kurs açılış sayfası</h2>
+                <h2 className='fs-4 fw-bold'>Course landing page</h2>
             </div>
             <div className='app-component-main-content'>
                 {course && <form onSubmit={formik.handleSubmit} className='w-100' >
                     <div className='basic-answer-input-group'>
                         <label className='form-control-label' htmlFor='title'>
-                            Kurs başlığı
+                        Course title
                         </label>
                         <input onChange={formik.handleChange}
                             defaultValue={course.title || ''}
@@ -73,7 +73,7 @@ const Basics = () => {
 
                     <div className='basic-answer-input-group'>
                         <label className='form-control-label' htmlFor='subtitle'>
-                            Kurs altbaşlığı
+                        Course subtitle
                         </label>
                         <input onChange={formik.handleChange}
                             defaultValue={course.subtitle || ''}
@@ -82,7 +82,7 @@ const Basics = () => {
 
                     <div className='basic-answer-input-group'>
                         <label className='form-control-label' htmlFor='description'>
-                            Kurs Açıklaması
+                            Course Description
                         </label>
                         <div className='editor'>
                             <CKEditor
@@ -101,16 +101,16 @@ const Basics = () => {
 
                     <div className='basic-answer-input-group d-flex my-4'>
                         <select defaultValue={"default"} className='basic-answer-input form-control me-3'>
-                            <option value={"default"} >Türkçe</option>
-                            <option>İngilizce</option>
+                            <option value={"default"} >English</option>
+                            <option>Hindi</option>
                         </select>
 
                         <select defaultValue={"default"} className='basic-answer-input form-control me-3'>
-                            <option value={"default"} disabled>--Düzey Seçin--</option>
-                            <option>Başlangıç Düzeyi</option>
-                            <option>Orta Düzey</option>
-                            <option>Uzman Düzeyi</option>
-                            <option>Tüm Düzeyler</option>
+                            <option value={"default"} disabled>--Select Level--</option>
+                            <option>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Expert Level</option>
+                            <option>All Levels</option>
                         </select >
 
                         <select onChange={formik.handleChange}

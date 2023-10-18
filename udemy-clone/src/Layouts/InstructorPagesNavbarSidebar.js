@@ -28,7 +28,7 @@ const InstructorPagesNavbarSidebar = () => {
 
                 <Nav id='navbar-buttons' className='ms-auto'>
                     <NavLink className='nav-link me-4' to={"/"}>
-                        Öğrenci
+                    Student
                     </NavLink>
 
                     <div className="btn-group dropstart">
@@ -76,31 +76,31 @@ const InstructorPagesNavbarSidebar = () => {
                         <li className='instructor-help-list-item'>
                             <a href='/instructor/courses#'>
                                 <MdOutlineOndemandVideo size={28} color='white' />
-                                <span>Kurslar</span>
+                                <span>courses</span>
                             </a>
                         </li>
                         <li className='instructor-help-list-item'>
                             <a href='/instructor/courses#'>
                                 <MdOutlineMessage size={28} color='white' />
-                                <span>İletişim</span>
+                                <span>Communication</span>
                             </a>
                         </li>
                         <li className='instructor-help-list-item'>
                             <a href='/instructor/courses#'>
                                 <IoMdStats size={28} color='white' />
-                                <span>Performans</span>
+                                <span>Performance</span>
                             </a>
                         </li>
                         <li className='instructor-help-list-item'>
                             <a href='/instructor/courses#'>
                                 <BiHelpCircle size={28} color='white' />
-                                <span>Araçlar</span>
+                                <span>Vehicles</span>
                             </a>
                         </li>
                         <li className='instructor-help-list-item'>
                             <a href='/instructor/courses#'>
                                 <TbTool size={28} color='white' />
-                                <span>Kaynaklar</span>
+                                <span>resources</span>
                             </a>
                         </li>
                     </ul>

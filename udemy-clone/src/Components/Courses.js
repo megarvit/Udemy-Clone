@@ -33,10 +33,10 @@ const Courses = () => {
         <Container >
             <div className="component-header">
                 <div className="component-title">
-                    Kapsamlı kurs seçkisi
+                Extensive course selection
                 </div>
                 <div className="component-subtext fs-5">
-                    Her ay yayınlanan yeni kurslarla 204.000+ online video kurs arasından seçiminizi yapın
+                Choose from 204,000+ online video courses, with new courses released every month
                 </div>
             </div>
 

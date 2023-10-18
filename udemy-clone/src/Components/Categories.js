@@ -8,7 +8,7 @@ const Categories = () => {
             <Container>
                 <div className='component-popular-categories'>
                     <h4 className='fs-4 fw-bold mt-4 mb-3'>
-                        En Popüler Kategoriler
+                    Most Popular Categories
                     </h4>
                     <section>
                         <Col>
@@ -16,49 +16,49 @@ const Categories = () => {
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        Tasarım
+                                    Design
                                     </span>
                                 </Card>
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        Yazılım Geliştirme
+                                    Software development
                                     </span>
                                 </Card>
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        Pazarlama
+                                    Marketing
                                     </span>
                                 </Card>
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        BT ve Yazılım
+                                    IT and Software
                                     </span>
                                 </Card>
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        Kişisel Gelişim
+                                    Self-improvement
                                     </span>
                                 </Card>
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        İşletme
+                                    Business
                                     </span>
                                 </Card>
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        Fotoğrafçılık
+                                    Photography
                                     </span>
                                 </Card>
                                 <Card >
                                     <Card.Img id='category-image' src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg" />
                                     <span className='category-text'>
-                                        Müzik
+                                        Music
                                     </span>
                                 </Card>
                             </Row>
@@ -73,38 +73,38 @@ const Categories = () => {
                     <div className='categories'>
 
                         <div className='category'>
-                            <h5 className='fw-bold'>Yazılım Geliştirme</h5>
+                            <h5 className='fw-bold'>link</h5>
                             <ul className='list-unstyled'>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>Python</a> <span className='student-count'> 36.030.827 öğrenci</span>  </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>Web Geliştirme </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>Makine Öğrenimi </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>Python</a> <span className='student-count'> 36.030.827 </span>  </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>link </a> <span className='student-count'> 36.030.827 </span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>link </a> <span className='student-count'> 36.030.827 </span> </li>
                             </ul>
                         </div>
 
                         <div className='category'>
-                            <h5 className='fw-bold'>İşletme</h5>
+                            <h5 className='fw-bold'>link</h5>
                             <ul className='list-unstyled'>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>Finansal Analiz </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>SQL </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>PMP </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>link </a> <span className='student-count'> 36.030.827 </span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>SQL </a> <span className='student-count'> 36.030.827 </span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>PMP </a> <span className='student-count'> 36.030.827 </span> </li>
                             </ul>
                         </div>
 
                         <div className='category'>
-                            <h5 className='fw-bold'>BT ve Yazılım</h5>
+                            <h5 className='fw-bold'>link</h5>
                             <ul className='list-unstyled'>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>AWS Sertifikasyonu </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>Etik Hackleme </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'> Siber Güvenlik</a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>AWS certfication </a> <span className='student-count'> 36.030.827</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>link </a> <span className='student-count'> 36.030.827</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'> link</a> <span className='student-count'> 36.030.827</span> </li>
                             </ul>
                         </div>
 
                         <div className='category'>
-                            <h5 className='fw-bold'>Tasarım</h5>
+                            <h5 className='fw-bold'>link</h5>
                             <ul className='list-unstyled'>
-                                <li className='category-list-item'> <a className='category-link' href='/#'> Photoshop</a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>Grafik Tasarım </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
-                                <li className='category-list-item'> <a className='category-link' href='/#'>Çizim </a> <span className='student-count'> 36.030.827 öğrenci</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'> Photoshop</a> <span className='student-count'> 36.030.827</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>link </a> <span className='student-count'> 36.030.827</span> </li>
+                                <li className='category-list-item'> <a className='category-link' href='/#'>link </a> <span className='student-count'> 36.030.827</span> </li>
                             </ul>
                         </div>
 

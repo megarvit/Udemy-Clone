@@ -18,7 +18,7 @@ const CourseManageSideBar = () => {
             <ul className='list-unstyled'>
                 <li className='side-nav-section'>
                     <div className='side-nav-section-header fw-bold'>
-                        Kursunuzu planlayın
+                    Plan your course
                     </div>
                     <ul className='list-unstyled'>
                         <li className='side-nav-item'>

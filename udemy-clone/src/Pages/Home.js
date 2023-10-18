@@ -11,8 +11,8 @@ const Home = () => {
             <Container>
                 <div className="component-jumbotron mb-5">
                     <div className="component-jumbotron-card">
-                        <h2 className="component-jumbotron-card-title">Udemy'de yeni misiniz? Çok şanslısınız.</h2>
-                        <p className="fs-6">Kurslar şimdi yalnızca ₺69,99'den başlayan fiyatlarla! Sona ermeden önce yeni öğrencilere özel fırsattan yararlanın.
+                        <h2 className="component-jumbotron-card-title">New to Udemy? You are very lucky.</h2>
+                        <p className="fs-6">Courses now starting from only ₺69.99! Take advantage of the special offer for new students before it ends.
                         </p>
                     </div>
                 </div>
@@ -31,13 +31,13 @@ const Home = () => {
                         </Col>
                         <Col  >
                             <div className='non-student-cta'>
-                                <h2 className='non-student-cta-heading'>Eğitmen olun</h2>
+                                <h2 className='non-student-cta-heading'>Become an instructor</h2>
                                 <p className='non-student-cta-text'>
-                                    Dünyanın dört bir yanından eğitmenler Udemy'de milyonlarca
-                                    öğrenciye eğitim veriyor. Sevdiğiniz şeyleri öğretmeniz için gereken araçları ve yetkinlikleri sağlıyoruz.
+                                    Instructors from around the world have millions on Udemy
+                                    provides education to students. We provide the tools and competencies you need to teach what you love.
                                 </p>
                                 <button className='btn-design-black link'>
-                                    Hemen eğitim vermeye başlayın
+                                Start training now
                                 </button>
                             </div>
                         </Col>
@@ -47,11 +47,11 @@ const Home = () => {
                             <div className='non-student-cta ms-auto' >
                                 <Image width={282} height={48} src={logoub} className='non-student-cta-image' />
                                 <p className='non-student-cta-text'>
-                                    Ekibiniz için popüler 17.000+ Udemy kursuna sınırsız erişim elde edin.
-                                    İşletme, teknoloji, tasarım ve daha birçok konuda eğitim alın ve yetkinliklerinizi geliştirin.
+                                    Get unlimited access to 17,000+ popular Udemy courses for your team.
+                                    Get training and improve your competencies in business, technology, design and more.
                                 </p>
                                 <button className='btn-design-black link'>
-                                    Udemy business ürününü edinin
+                                    Get Udemy business
                                 </button>
                             </div>
                         </Col>
@@ -69,13 +69,13 @@ const Home = () => {
                         </Col>
                         <Col >
                             <div className='non-student-cta'>
-                                <h2 className='non-student-cta-heading'>Eğitimle hayatınızı dönüştürün</h2>
+                                <h2 className='non-student-cta-heading'>Transform your life with education</h2>
                                 <p className='non-student-cta-text'>
-                                    Dünya genelindeki öğrenciler yeni kariyerlere başlıyor,
-                                    alanlarında kendilerini geliştiriyor ve hayatlarını zenginleştiriyor.
+                                    Students around the world are starting new careers,
+                                    They improve themselves in their fields and enrich their lives.
                                 </p>
                                 <button className='btn-design-black link'>
-                                    Nasıl olduğunu öğrenin
+                                    Find out how
                                 </button>
                             </div>
                         </Col>

@@ -37,7 +37,7 @@ const LNavbar = () => {
 
                     <div className='d-flex w-100 me-4'>
                         <NavLink className='nav-link' to={""}>
-                            Kategoriler
+                        categories
                         </NavLink>
                         <Form className='w-100' >
                             <div className='bg-light d-flex py-1 border border-1 border-dark rounded-pill'  >
@@ -48,7 +48,7 @@ const LNavbar = () => {
                                     height={46}
                                     className='border-0 bg-light pt-2 pb-2 shadow-none'
                                     type="search"
-                                    placeholder="Dilediğiniz Şeyi Arayın"
+                                    placeholder="search bar"
                                     aria-label="Search"
                                     id='searchinput'
                                 />
@@ -62,12 +62,12 @@ const LNavbar = () => {
                         Cookies.get("sessionid") == null ?
                             <div >
                                 <NavLink className='nav-link' to={""}>
-                                    Udemy'de Eğitim Verin</NavLink>
+                                    Teach on Udemy</NavLink>
                             </div>
                             :
                             <div className='d-flex' style={{ width: "20rem" }}>
                                 <NavLink className='nav-link' to={"instructor/courses"}>
-                                    Eğitmen
+                                    Instructor
                                 </NavLink>
                                 <NavLink className='nav-link' to={"/my-courses/learning"}>
                                     Öğrenim İçeriğim
@@ -80,10 +80,10 @@ const LNavbar = () => {
                 {
                     Cookies.get("sessionid") == null ? <div>
                         <NavLink className='navlink-login' to={"join/login"}>
-                            Oturum Aç
+                            Login
                         </NavLink>
                         <NavLink className='navlink-register' to={"join/signup"} >
-                            Kaydol
+                            Sign up
                         </NavLink>
                     </div> :
                         <div className='ms-5 d-flex align-items-center' >
