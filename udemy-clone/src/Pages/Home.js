@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="component-jumbotron mb-5">
                     <div className="component-jumbotron-card">
                         <h2 className="component-jumbotron-card-title">New to Udemy? You are very lucky.</h2>
-                        <p className="fs-6">Courses now starting from only ₺69.99! Take advantage of the special offer for new students before it ends.
+                        <p className="fs-6">Courses now starting from only 700Rs! Take advantage of the special offer for new students before it ends.
                         </p>
                     </div>
                 </div>
