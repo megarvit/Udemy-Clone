@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/megarvit/Udemy-Clone/static/css/main.290b269f.css",
+    "main.js": "/megarvit/Udemy-Clone/static/js/main.c058b043.js",
+    "static/js/787.07d828f8.chunk.js": "/megarvit/Udemy-Clone/static/js/787.07d828f8.chunk.js",
+    "static/media/b8f46419-eca3-44c1-8ba0-ed2ca89f8884.jpg": "/megarvit/Udemy-Clone/static/media/b8f46419-eca3-44c1-8ba0-ed2ca89f8884.163af8cf8a54d0cb67aa.jpg",
+    "static/media/revicons.eot": "/megarvit/Udemy-Clone/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/megarvit/Udemy-Clone/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/megarvit/Udemy-Clone/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo-ub.svg": "/megarvit/Udemy-Clone/static/media/logo-ub.6ce089a0dc91366110364df69bbf21e2.svg",
+    "static/media/logo-udemy-inverted.svg": "/megarvit/Udemy-Clone/static/media/logo-udemy-inverted.bc61c6989dd94540b76689ec30e1b7f5.svg",
+    "static/media/logo-udemy.svg": "/megarvit/Udemy-Clone/static/media/logo-udemy.ac64b9eb547dc3795f53173b290203d9.svg",
+    "index.html": "/megarvit/Udemy-Clone/index.html",
+    "main.290b269f.css.map": "/megarvit/Udemy-Clone/static/css/main.290b269f.css.map",
+    "main.c058b043.js.map": "/megarvit/Udemy-Clone/static/js/main.c058b043.js.map",
+    "787.07d828f8.chunk.js.map": "/megarvit/Udemy-Clone/static/js/787.07d828f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.290b269f.css",
+    "static/js/main.c058b043.js"
+  ]
+}
