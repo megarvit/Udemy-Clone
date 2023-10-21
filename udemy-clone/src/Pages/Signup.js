@@ -43,7 +43,7 @@ const Signup = () => {
     return (
         <Container style={{ width: "25rem" }}>
             <div className='my-5'>
-                <div className='fs-6 fw-bold' >Kaydolun ve Öğrenmeye Başlayın </div>
+                <div className='fs-6 fw-bold' >Sign Up and Start Learning </div>
                 {error && <div className='alert alert-danger fw-bold rounded-0 mt-3'>
                     Hesabınız oluşturulurken bir sorun meydana geldi.
                     E-posta adresinizin ve kullanıcı adınızın doğru yazılıp yazılmadığını kontrol edin.
@@ -51,7 +51,7 @@ const Signup = () => {
                 <div className='my-3'>
                     <form onSubmit={formik.handleSubmit}>
                         <div className='input-group'>
-                            <input className='form-item' id="username" name="username" placeholder="Tam ad"
+                            <input className='form-item' id="username" name="username" placeholder="Your fullname"
                                 onChange={formik.handleChange}
                                 value={formik.values.username}
                             />
@@ -65,7 +65,7 @@ const Signup = () => {
                                 className='form-item'
                                 id="email"
                                 name="email"
-                                placeholder="E-Posta"
+                                placeholder="Your Email"
                                 type="email"
                                 onChange={formik.handleChange}
                                 value={formik.values.email}
@@ -76,7 +76,7 @@ const Signup = () => {
                         </div>
 
                         <div className='input-group'>
-                            <input className='form-item' type="password" id="password1" name="password1" placeholder="Şifre"
+                            <input className='form-item' type="password" id="password1" name="password1" placeholder="write a Password"
                                 onChange={formik.handleChange}
                                 value={formik.values.password1}
                             />
@@ -89,21 +89,21 @@ const Signup = () => {
                             <input name="subscribeToEmails"
                                 className="d-inline real-toggle-input" id="checkbox--7" type="checkbox" />
                             <label className="toggle-input-container ms-2 mt-3" htmlFor="checkbox--7">
-                                Bana özel teklifler, kişiselleştirilmiş öneriler ve öğrenim ipuçları gönder.
+                                Send me special offers, personalized recommendations and learning tips.
                             </label>
                         </div>
-                        <button className='btn-signup' type="submit">Kaydol</button>
+                        <button className='btn-signup' type="submit">Register</button>
                     </form>
                 </div>
 
                 <div className='text-center'>
                     <div className='form-text-1'>
-                        Kaydolurken Kullanım Şartlarımızı ve Gizlilik Politikamızı kabul edersiniz.
+                        By signing up you agree to our Terms of Use and Privacy Policy.
                     </div>
                     <hr />
                     <div className='form-text-2'>
-                        Zaten hesabınız var mı? <Link to={"join/login"}>
-                            Oturum açın</Link>
+                        Already have an account? <Link to={"join/login"}>
+                            Sign in</Link>
                     </div>
                 </div>
             </div>
