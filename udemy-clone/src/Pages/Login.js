@@ -43,22 +43,22 @@ const Login = () => {
     return (
         <Container style={{ width: "25rem" }}>
             <div className='my-5'>
-                <div className='fs-6 fw-bold' >Udemy hesabınızda oturum açın </div>
+                <div className='fs-6 fw-bold' >Sign in to your Udemy account </div>
                 <hr />
                 <div className='btn-login-buttons'>
                     <button className='btn-login btn-login-facebook'>
                         <MdFacebook size={27} className='me-2' />
-                        <span>Facebook ile devam et</span>
+                        <span>Continue with Facebook</span>
                     </button>
 
                     <button className='btn-login btn-login-google'>
                         <FcGoogle size={27} className='me-2' />
-                        <span>Google ile devam et</span>
+                        <span>Continue with Google</span>
                     </button>
 
                     <button className='btn-login btn-login-apple'>
                         <GrApple size={27} className='me-2' />
-                        <span>Apple ile devam et</span>
+                        <span>Continue with Apple</span>
                     </button>
                 </div>
                 <div className='my-3'>
@@ -68,7 +68,7 @@ const Login = () => {
                         </div>}
                     <form onSubmit={formik.handleSubmit}>
                         <div className='input-group'>
-                            <input className='form-item' id="username" name="username" placeholder="Kullanıcı adı"
+                            <input className='form-item' id="username" name="username" placeholder="Username"
                                 onChange={formik.handleChange}
                                 value={formik.values.username}
                             />
@@ -78,7 +78,7 @@ const Login = () => {
 
                         </div>
                         <div className='input-group'>
-                            <input className='form-item' type="password" id="password" name="password" placeholder="Şifre"
+                            <input className='form-item' type="password" id="password" name="password" placeholder="Password"
                                 onChange={formik.handleChange}
                                 value={formik.values.password}
                             />
@@ -86,18 +86,18 @@ const Login = () => {
                                 <div className='text-danger'>{formik.errors.password}</div>
                             ) : null}
                         </div>
-                        <button className='btn-signin' type="submit">Oturum Aç</button>
+                        <button className='btn-signin' type="submit">Login</button>
                     </form>
                 </div>
 
                 <div className='text-center'>
                     <div >
-                        veya <Link to={""}>
-                            Şifremi unuttum</Link>
+                        or <Link to={""}>
+                        I forgot my password</Link>
                     </div>
                     <div >
-                        Hesabınız yok mu?  <Link to={"join/signup"}>
-                            Kaydol</Link>
+                        Don't have an account?  <Link to={"join/signup"}>
+                            Register</Link>
                     </div>
                 </div>
             </div>
